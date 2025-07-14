@@ -1,56 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
+  <meta charset="UTF-8">
+  <title>Resume | Karra Bhavana</title>
+  <style>
+    body {
+      background-color: #f9f9ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="https://glitch.com/favicon.ico" />
+    header {
+      background-color: #4a148c;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
 
-  <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-  <title>Hello World!</title>
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
 
-  <!-- The website stylesheet -->
-  <link rel="stylesheet" href="/style.css" />
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
 
-  <!-- The website JavaScript file -->
-  <script src="/script.js" defer></script>
+    h2 {
+      color: #4a148c;
+      margin-top: 30px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #bbb;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .contact {
+      background-color: #ede7f6;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px auto;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+  </style>
 </head>
-
 <body>
-  <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-  <div class="wrapper">
-    <div class="content" role="main">
-      <h1 class="title">Oh hi website!</h1>
-      <img src="/cool-website.svg" class="illustration" alt="cool website" />
-      <div class="instructions">
-        <p>
-          Fork <a href="https://github.com/glitchdotcom/website-to-compute">this project</a> and open it in a GitHub Codespace.
-        </p>
-        <p> Follow the steps in the README to deploy your new website to Fastly in a few steps!
-        </p>
 
-      </div>
+  <header>
+    <h1>KARRA BHAVANA</h1>
+    <p>Aspiring Web Developer | B.Tech Student</p>
+  </header>
 
-      <footer class="footer">
-        <div>
-          <a class="remix" href="https://github.com/glitchdotcom/website-to-compute">🚧 Get your own site</a>
-        </div>
-      </footer>
-    </div>
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I’m Bhavana, a passionate and curious learner currently pursuing B.Tech. I have a growing interest in front-end development and I love turning ideas into functional web pages using HTML and CSS. I’m currently improving my JavaScript skills and exploring real-world projects.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> A personal website to showcase my work and skills using HTML, CSS, and responsive design.</li>
+      <li><strong>Simple Calculator:</strong> Created using HTML, CSS, and basic JavaScript to perform basic arithmetic operations.</li>
+      <li><strong>Weather App:</strong> Displays live weather updates using API integration (OpenWeather).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Basic JavaScript</li>
+      <li>Python (Fundamentals)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>Qualification</th>
+      </tr>
+      <tr>
+        <td>Vishnu Institute of Technology</td>
+        <td>2024 – 2028</td>
+        <td>B.Tech (Computer Science)</td>
+      </tr>
+      <tr>
+        <td>Narayana Junior College</td>
+        <td>2022 – 2023</td>
+        <td>Intermediate (MPC)</td>
+      </tr>
+      <tr>
+        <td>Sri Chaitanya High School</td>
+        <td>2021</td>
+        <td>SSC (10th Grade)</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Email:</strong> bhavana@gmail.com</p>
+    <p><strong>Phone:</strong> +91 98456 73286</p>
+  </section>
+
+  <div class="footer">
+    <p>© 2025 Karra Bhavana | Designed with passion and practice</p>
   </div>
-</body>
 
+</body>
 </html>
+
